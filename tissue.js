@@ -450,4 +450,172 @@ const quizData = [
     answer: "A",
     explanation: "Cold plates quickly solidify wax blocks for embedding and easy sectioning."
   },
-  
+
+
+
+    // Questions 53–92
+
+  {question:"What is the usual duration for dehydration per alcohol station?",
+   options:{A:"30–45 minutes", B:"60–120 minutes", C:"5–10 minutes", D:"2–3 hours"},
+   answer:"B",
+   explanation:"Duration: Typically 60 to 120 minutes per station during dehydration."},
+
+  {question:"Why is agitation important during dehydration?",
+   options:{A:"Prevents tissue sticking to container", B:"Prevents saturated fluid layer from stagnating", C:"Colors the tissue", D:"Removes wax"},
+   answer:"B",
+   explanation:"Continuous rotation or vertical oscillation prevents a layer of saturated fluid from stagnating around the tissue, speeding up diffusion."},
+
+  {question:"How does temperature affect dehydration rate?",
+   options:{A:"Higher heat slows diffusion", B:"Temperature has no effect", C:"Heat increases diffusion but too high cooks tissue", D:"Low temperature hardens tissue"},
+   answer:"C",
+   explanation:"Heat increases the rate of diffusion, but high heat can 'cook' or harden tissue, causing artifacts."},
+
+  {question:"What is the function of vacuum in tissue processing?",
+   options:{A:"Removes alcohol", B:"Pulls trapped air bubbles and aids reagent penetration", C:"Increases wax melting point", D:"Colors tissue"},
+   answer:"B",
+   explanation:"Applying a vacuum removes trapped air bubbles, aiding reagent penetration and speeding up processing."},
+
+  {question:"Why should the final alcohol in dehydration be fresh?",
+   options:{A:"Old alcohol can evaporate", B:"Impure alcohol makes clearing agent milky", C:"Fresh alcohol prevents tissue shrinking", D:"It cools the tissue"},
+   answer:"B",
+   explanation:"If the final alcohol contains water, the subsequent clearing agent (xylene) will turn milky, and the wax will not enter."},
+
+  {question:"What does anhydrous Copper Sulphate indicate in alcohol?",
+   options:{A:"Moisture-free alcohol", B:"Alcohol is dirty", C:"Tissue is hard", D:"Alcohol needs warming"},
+   answer:"A",
+   explanation:"Anhydrous CuSO₄ pulls water molecules out of alcohol; white powder indicates dry alcohol, blue crystals indicate water present."},
+
+  {question:"What is the advantage of using acetone for dehydration?",
+   options:{A:"Slower and gentler", B:"Very rapid and cheap, easily removed by clearing agents", C:"Colors tissue", D:"Prevents shrinkage"},
+   answer:"B",
+   explanation:"Acetone acts very rapidly, is cheaper than ethanol, and is easily removed by most clearing agents."},
+
+  {question:"What is a disadvantage of using acetone?",
+   options:{A:"Causes excessive shrinkage and brittleness", B:"Does not remove water", C:"Slow action", D:"Too safe"},
+   answer:"A",
+   explanation:"Acetone is highly volatile and causes excessive shrinkage and brittleness if left too long."},
+
+  {question:"Why is clearing called 'clearing'?",
+   options:{A:"It removes fat", B:"Tissue becomes translucent due to refractive index change", C:"It colors tissue", D:"It hardens tissue"},
+   answer:"B",
+   explanation:"Most clearing agents have a high Refractive Index; when alcohol is removed and replaced, tissue becomes translucent."},
+
+  {question:"Which clearing agent is not suitable for brain tissue due to brittleness?",
+   options:{A:"Xylene", B:"Toluene", C:"Cedarwood Oil", D:"Chloroform"},
+   answer:"A",
+   explanation:"Xylene hardens tissue significantly if left too long; not suitable for brain tissue."},
+
+  {question:"Which clearing agent is heavy, toxic, and does not make tissue transparent?",
+   options:{A:"Xylene", B:"Chloroform", C:"Toluene", D:"Cedarwood Oil"},
+   answer:"B",
+   explanation:"Chloroform is excellent for uterus, muscle, and brain, but is heavy, toxic, and does not make tissue transparent."},
+
+  {question:"Which clearing agent mixture is used for fibrous uterus tissues?",
+   options:{A:"Carbol-Xylene", B:"Xylene", C:"Toluene", D:"Cedarwood Oil"},
+   answer:"A",
+   explanation:"Carbol-Xylene is a mixture of phenol and xylene; clears very rapidly and reserved for difficult tissues."},
+
+  {question:"Why is paraffin wax used in infiltration?",
+   options:{A:"Softens tissue", B:"Supports tissue for thin sectioning", C:"Colors tissue", D:"Removes alcohol"},
+   answer:"B",
+   explanation:"Paraffin wax fills natural cavities, intracellular spaces, and interstices of the tissue, giving support for cutting thin sections."},
+
+  {question:"What is the usual wax temperature for infiltration?",
+   options:{A:"37–40°C", B:"50–55°C", C:"56–60°C", D:"70–75°C"},
+   answer:"C",
+   explanation:"Molten wax is usually kept at 56–60°C for tissue infiltration."},
+
+  {question:"How does vacuum help during infiltration?",
+   options:{A:"Removes alcohol", B:"Pulls air bubbles and speeds wax entry", C:"Colors tissue", D:"Cools tissue"},
+   answer:"B",
+   explanation:"Vacuum removes trapped air bubbles and speeds up wax entry, especially in spongy tissue like lung."},
+
+  {question:"Which manual processing container contains xylene?",
+   options:{A:"3–4", B:"9–10", C:"1–2", D:"11–12"},
+   answer:"B",
+   explanation:"Containers 9–10 in manual processing are for xylene (clearing)."}, 
+
+  {question:"Which embedding medium is used when paraffin heat would damage tissue?",
+   options:{A:"Celloidin", B:"Paraffin", C:"Agar", D:"Epoxy"},
+   answer:"A",
+   explanation:"Celloidin is used for very hard tissues where heat from paraffin would cause damage."},
+
+  {question:"Which embedding medium is polymerized and generates heat?",
+   options:{A:"Paraffin", B:"Methacrylate", C:"Agar", D:"Gelatin"},
+   answer:"B",
+   explanation:"Methacrylate (plastic) is harder than wax, miscible with alcohol, but polymerization generates heat."},
+
+  {question:"Which embedding medium is water-soluble and allows skipping alcohol/clearing?",
+   options:{A:"Carbowax", B:"Paraffin", C:"Epoxy", D:"Celoidin"},
+   answer:"A",
+   explanation:"Carbowax is water-soluble; tissues go directly from fixation/water into Carbowax."},
+
+  {question:"What is the use of agar embedding?",
+   options:{A:"Tiny fragments or friable tissue", B:"Electron microscopy", C:"Light microscopy", D:"Frozen sections"},
+   answer:"A",
+   explanation:"Agar is used for friable tissue or multiple tiny fragments; double impregnation technique."},
+
+  {question:"Why are forceps wells kept hot?",
+   options:{A:"Prevent wax sticking", B:"Cool tissue", C:"Speed dehydration", D:"Prevent air bubbles"},
+   answer:"A",
+   explanation:"Forceps wells keep forceps hot so wax doesn't stick to them during embedding."},
+
+  {question:"What is the purpose of the cold plate in embedding?",
+   options:{A:"Cool wax rapidly", B:"Heat moulds", C:"Agitate wax", D:"Store forceps"},
+   answer:"A",
+   explanation:"Cold plate is a refrigerated surface to rapidly cool the wax base."},
+
+  {question:"Which plane should skin be cut for embedding?",
+   options:{A:"Parallel", B:"Right angles", C:"Diagonal", D:"Random"},
+   answer:"B",
+   explanation:"Skin should be cut at right angles to surface to see epidermis, dermis, and subcutis."},
+
+  {question:"How should tubular structures be oriented?",
+   options:{A:"Longitudinal", B:"Transverse", C:"Random", D:"Angled"},
+   answer:"B",
+   explanation:"Tubular structures should be oriented transversely to show complete rings of wall layers and lumen."},
+
+  {question:"How should multiple tissue fragments be placed in the mould?",
+   options:{A:"Scattered", B:"Grouped in center along long axis", C:"Edges", D:"Stacked"},
+   answer:"B",
+   explanation:"Multiple fragments should be grouped in the center, aligned with the long axis of the mould."},
+
+  {question:"Which paraffin wax additive increases stickiness?",
+   options:{A:"Beeswax", B:"Ceresin", C:"Bayberry Wax", D:"None"},
+   answer:"A",
+   explanation:"Beeswax increases tackiness, helping sections stick together in a ribbon."},
+
+  {question:"Which paraffin wax additive reduces crystal formation?",
+   options:{A:"Beeswax", B:"Ceresin", C:"Bayberry Wax", D:"None"},
+   answer:"B",
+   explanation:"Ceresin reduces crystal formation, making wax smoother."},
+
+  {question:"Which paraffin wax additive lowers melting point?",
+   options:{A:"Beeswax", B:"Ceresin", C:"Bayberry Wax", D:"None"},
+   answer:"C",
+   explanation:"Bayberry Wax lowers the melting point of wax."},
+
+  {question:"What is the general rule for tissue orientation in embedding?",
+   options:{A:"Face UP", B:"Face DOWN", C:"Random", D:"Tilted"},
+   answer:"B",
+   explanation:"The surface to be cut/examined faces DOWN in the mould."},
+
+  {question:"Why should molten wax be filtered before embedding?",
+   options:{A:"Remove dust/grit", B:"Cool wax", C:"Change color", D:"Increase hardness"},
+   answer:"A",
+   explanation:"Molten wax must be filtered to remove dust/grit that could nick the microtome knife."},
+
+  {question:"What is the melting point of standard paraffin wax?",
+   options:{A:"45–50°C", B:"56–62°C", C:"65–70°C", D:"50–55°C"},
+   answer:"B",
+   explanation:"Paraffin Wax melting point is 56–62°C."},
+
+  {question:"What is embedding (blocking)?",
+   options:{A:"Cutting tissue", B:"Enclosing tissue in solid medium", C:"Dehydration", D:"Clearing"},
+   answer:"B",
+   explanation:"Embedding is enclosing infiltrated tissue in a solid block using a mould."},
+
+  {question:"Why is orientation critical during embedding?",
+   options:{A:"For visual appeal", B:"Plane of sectioning determines diagnosis", C:"Random", D:"To speed processing"},
+   answer:"B",
+   explanation:"If tissue is oriented wrong, diagnosis may be impossible."},
