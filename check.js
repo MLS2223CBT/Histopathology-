@@ -1,3 +1,106 @@
+// ===== quiz.js (Pro CBT Version with carousel fix) =====
+const quizData = [
+
+  // ===== QUESTIONS 1 – 90 =====
+  {
+    question: "In order to obtain satisfactory paraffin sections of bone, what must be removed?",
+    options: { A: "Organic collagen matrix", B: "Inorganic calcium", C: "Cartilage", D: "Proteins" },
+    answer: "B",
+    explanation: "In order to obtain satisfactory paraffin sections of bone, inorganic calcium must be removed from the organic collagen matrix, calcified cartilage and surrounding tissues."
+  },
+  {
+    question: "Decalcification process is carried out by which agents?",
+    options: { A: "Enzymes", B: "Chemical agents", C: "Heat", D: "Water" },
+    answer: "B",
+    explanation: "This decalcification process is carried out by chemical agents; either acids to form soluble calcium salts, or chelating agents which bind to calcium ions."
+  },
+  {
+    question: "Principles of Decalcification relies on the use of chemical agents that either ______ calcium salts.",
+    options: { A: "Stain", B: "Dissolve or chelate", C: "Freeze", D: "Boil" },
+    answer: "B",
+    explanation: "Principles of Decalcification relies on the use of chemical agents that either dissolve or chelate calcium salts."
+  },
+  // … (continue questions 4–90 in same format)
+
+  // ===== QUESTIONS 91 – 130 =====
+  {
+    question: "The main purpose of fixation in tissue processing is to:",
+    options: { A: "Harden the tissue completely", B: "Preserve tissue structure and prevent autolysis", C: "Remove water from tissue", D: "Stain the tissue" },
+    answer: "B",
+    explanation: "Fixation preserves cellular structure and prevents autolysis and putrefaction."
+  },
+  {
+    question: "Autolysis is caused by:",
+    options: { A: "Bacterial invasion", B: "Poor staining technique", C: "Self-digestion by enzymes", D: "Overheating paraffin" },
+    answer: "C",
+    explanation: "Autolysis is the self-digestion of cells by their own enzymes after death."
+  },
+  {
+    question: "Putrefaction is mainly caused by:",
+    options: { A: "Heat", B: "Bacteria", C: "Alcohol", D: "Xylene" },
+    answer: "B",
+    explanation: "Putrefaction is tissue breakdown caused by bacterial action."
+  },
+  {
+    question: "The ideal thickness of tissue for proper fixation is:",
+    options: { A: "1–2 cm", B: "5–10 mm", C: "10–20 mm", D: "25 mm" },
+    answer: "B",
+    explanation: "Tissues should be 5–10 mm thick to allow proper penetration of fixative."
+  },
+  {
+    question: "Formalin penetrates tissue at approximately:",
+    options: { A: "1 mm per hour", B: "5 mm per hour", C: "10 mm per hour", D: "20 mm per hour" },
+    answer: "A",
+    explanation: "Formalin penetrates tissue at about 1 mm per hour."
+  },
+  {
+    question: "Over-fixation may result in:",
+    options: { A: "Poor staining", B: "Soft tissue", C: "Autolysis", D: "Tissue swelling" },
+    answer: "A",
+    explanation: "Over-fixation can reduce staining quality."
+  },
+  {
+    question: "The purpose of dehydration is to:",
+    options: { A: "Remove paraffin", B: "Remove water from tissue", C: "Add stain", D: "Fix tissue" },
+    answer: "B",
+    explanation: "Dehydration removes water before clearing."
+  },
+  {
+    question: "The most commonly used dehydrating agent is:",
+    options: { A: "Xylene", B: "Ethanol", C: "Formalin", D: "Paraffin" },
+    answer: "B",
+    explanation: "Ethanol is commonly used in graded concentrations for dehydration."
+  },
+  {
+    question: "Clearing agents must be:",
+    options: { A: "Water soluble", B: "Alcohol soluble", C: "Miscible with alcohol and paraffin", D: "Acidic" },
+    answer: "C",
+    explanation: "Clearing agents must mix with both alcohol and paraffin."
+  },
+  {
+    question: "The most common clearing agent is:",
+    options: { A: "Ethanol", B: "Formalin", C: "Xylene", D: "Acetone" },
+    answer: "C",
+    explanation: "Xylene is the most widely used clearing agent."
+  },
+  {
+    question: "Over-clearing can cause tissue to become:",
+    options: { A: "Soft", B: "Brittle", C: "Wet", D: "Swollen" },
+    answer: "B",
+    explanation: "Excess clearing makes tissue brittle."
+  },
+  // … (continue up to question 130 in the same format)
+
+  // ===== LAST QUESTION (no trailing comma) =====
+  {
+    question: "The final step before microscopy is:",
+    options: { A: "Fixation", B: "Embedding", C: "Mounting", D: "Dehydration" },
+    answer: "C",
+    explanation: "Mounting prepares slides for microscopic examination."
+  }
+
+];
+
 
 
 // Shuffle
