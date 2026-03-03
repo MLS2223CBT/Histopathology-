@@ -1158,5 +1158,25 @@ const quizData = [
    answer:"B",
    explanation:"Dehydration is the first step after fixation to remove water from the tissue."},
 
-  {question:"Which factor is crucial for gentle processing of delicate tissues like embryos?",
-   options:{A:"Lower alcohol concentrations and shorter intervals", B:"High temperature", C:"Us
+
+
+
+
+
+      {question:"Which factor is crucial for gentle processing of delicate tissues like embryos?",
+   options:{A:"Lower alcohol concentrations and shorter intervals", B:"High temperature", C:"Use xylene only", D:"No fixation"},
+   answer:"A",
+   explanation:"Delicate tissues require lower alcohol concentrations and shorter intervals to prevent damage."},
+
+  {question:"What is the role of filter paper during use of anhydrous Copper Sulphate?",
+   options:{A:"To absorb water", B:"To prevent tissue staining", C:"To speed dehydration", D:"To color tissue"},
+   answer:"B",
+   explanation:"Filter paper prevents CuSO₄ crystals from directly contacting tissue, avoiding staining."},
+
+  {question:"Why is orientation angled diagonally in hairy skin?",
+   options:{A:"Random", B:"To prevent knife catching on hair shafts", C:"To speed cutting", D:"To color tissue"},
+   answer:"B",
+   explanation:"Angling hairy skin diagonally prevents the microtome knife from catching on hair shafts."}
+
+
+];
