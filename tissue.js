@@ -619,3 +619,190 @@ const quizData = [
    options:{A:"For visual appeal", B:"Plane of sectioning determines diagnosis", C:"Random", D:"To speed processing"},
    answer:"B",
    explanation:"If tissue is oriented wrong, diagnosis may be impossible."},
+
+
+
+  
+// Questions 93–132
+
+  {question:"Which microtome type is most commonly used in routine histology?",
+   options:{A:"Sliding microtome", B:"Rotary microtome", C:"Cryostat", D:"Freezing microtome"},
+   answer:"B",
+   explanation:"Rotary microtome is most common for routine paraffin sections due to precision and ease of use."},
+
+  {question:"What is the primary purpose of a microtome?",
+   options:{A:"Embedding tissue", B:"Sectioning tissue into thin slices", C:"Dehydrating tissue", D:"Clearing tissue"},
+   answer:"B",
+   explanation:"Microtome cuts tissue into thin sections suitable for microscopy."},
+
+  {question:"What thickness is typical for paraffin sections for light microscopy?",
+   options:{A:"1–2 µm", B:"3–5 µm", C:"10–15 µm", D:"20–30 µm"},
+   answer:"B",
+   explanation:"Paraffin sections for light microscopy are usually 3–5 µm thick."},
+
+  {question:"Why is trimming necessary before obtaining serial sections?",
+   options:{A:"To remove excess wax", B:"To expose tissue block surface and remove damaged tissue", C:"To cool tissue", D:"To dye tissue"},
+   answer:"B",
+   explanation:"Trimming removes excess wax and damaged tissue, exposing fresh tissue surface for uniform sectioning."},
+
+  {question:"Which knife edge is standard for routine paraffin microtomy?",
+   options:{A:"Glass knife", B:"Disposable steel blade", C:"Diamond knife", D:"Ceramic knife"},
+   answer:"B",
+   explanation:"Disposable steel blades are standard for routine paraffin sections due to cost and ease of replacement."},
+
+  {question:"Why might a diamond knife be used in microtomy?",
+   options:{A:"Routine paraffin sections", B:"Electron microscopy ultrathin sections", C:"Frozen sections", D:"Dehydration step"},
+   answer:"B",
+   explanation:"Diamond knives are used for ultra-thin sections for electron microscopy due to durability and sharpness."},
+
+  {question:"Which microtome accessory helps maintain uniform section thickness?",
+   options:{A:"Section thickness dial", B:"Cold plate", C:"Forceps", D:"Embedding mould"},
+   answer:"A",
+   explanation:"Section thickness dial allows precise adjustment of thickness for consistent slices."},
+
+  {question:"What is a ribbon in microtomy?",
+   options:{A:"A strip of wax", B:"Continuous series of sections stuck together", C:"Dehydration tool", D:"Clearing agent"},
+   answer:"B",
+   explanation:"A ribbon is a series of consecutive sections that stick together after cutting, typical in paraffin microtomy."},
+
+  {question:"Why is water bath used after sectioning?",
+   options:{A:"Cool tissue", B:"Flatten and remove wrinkles from sections", C:"Dye sections", D:"Dehydrate sections"},
+   answer:"B",
+   explanation:"Floating sections on a warm water bath relaxes wrinkles and allows them to adhere smoothly to slides."},
+
+  {question:"At what temperature is water bath usually maintained for paraffin sections?",
+   options:{A:"25–30°C", B:"35–40°C", C:"45–50°C", D:"60–65°C"},
+   answer:"C",
+   explanation:"Water bath for paraffin sections is maintained at 45–50°C to relax sections without melting wax."},
+
+  {question:"Why are slides coated before mounting sections?",
+   options:{A:"Improve adhesion of sections to slide", B:"Dye tissue", C:"Dehydrate tissue", D:"Flatten tissue"},
+   answer:"A",
+   explanation:"Coating (e.g., poly-L-lysine) helps paraffin sections adhere firmly to slides during processing."},
+
+  {question:"Which staining technique is routine for general tissue morphology?",
+   options:{A:"Hematoxylin and Eosin", B:"PAS", C:"Silver stain", D:"Trichrome"},
+   answer:"A",
+   explanation:"Hematoxylin and Eosin (H&E) is the standard stain for general tissue structure."},
+
+  {question:"What does hematoxylin stain?",
+   options:{A:"Cytoplasm", B:"Nuclei (basophilic structures)", C:"Collagen", D:"Lipids"},
+   answer:"B",
+   explanation:"Hematoxylin stains basophilic structures, primarily nuclei, blue-purple."},
+
+  {question:"What does eosin stain?",
+   options:{A:"Nuclei", B:"Cytoplasm and extracellular matrix (acidophilic structures)", C:"Lipids", D:"Carbohydrates"},
+   answer:"B",
+   explanation:"Eosin stains acidophilic components like cytoplasm, collagen, and extracellular matrix pink."},
+
+  {question:"Why is differentiation necessary after hematoxylin staining?",
+   options:{A:"To remove excess dye from tissue", B:"To fix tissue", C:"To embed tissue", D:"To dehydrate tissue"},
+   answer:"A",
+   explanation:"Differentiation removes excess hematoxylin to provide clear contrast between nucleus and cytoplasm."},
+
+  {question:"Why is bluing performed after differentiation?",
+   options:{A:"To make nuclei appear blue instead of red-purple", B:"To embed tissue", C:"To remove wax", D:"To dehydrate tissue"},
+   answer:"A",
+   explanation:"Bluing converts reddish-purple hematoxylin to crisp blue, enhancing nuclear detail."},
+
+  {question:"Which is a cytochemical stain for carbohydrates?",
+   options:{A:"PAS", B:"H&E", C:"Silver", D:"Trichrome"},
+   answer:"A",
+   explanation:"Periodic Acid-Schiff (PAS) stains polysaccharides and mucosubstances magenta."},
+
+  {question:"Which stain is used for reticular fibers?",
+   options:{A:"H&E", B:"Silver stain", C:"Trichrome", D:"PAS"},
+   answer:"B",
+   explanation:"Reticulin (reticular) fibers are visualized using silver staining techniques."},
+
+  {question:"Which stain differentiates collagen from muscle fibers?",
+   options:{A:"H&E", B:"Masson’s Trichrome", C:"PAS", D:"Silver"},
+   answer:"B",
+   explanation:"Masson’s Trichrome stains collagen blue/green and muscle fibers red."},
+
+  {question:"Why are frozen sections used?",
+   options:{A:"Routine paraffin work", B:"Rapid diagnosis and enzyme preservation", C:"Permanent storage", D:"Dehydration"},
+   answer:"B",
+   explanation:"Frozen sections are rapid and preserve enzyme activity, used in intraoperative diagnosis."},
+
+  {question:"What embedding medium is used in frozen sections?",
+   options:{A:"Paraffin", B:"OCT compound", C:"Agar", D:"Epoxy resin"},
+   answer:"B",
+   explanation:"Optimal Cutting Temperature (OCT) compound is used for frozen section embedding."},
+
+  {question:"At what temperature are frozen sections cut?",
+   options:{A:"Room temperature", B:"-20°C to -30°C", C:"37°C", D:"56°C"},
+   answer:"B",
+   explanation:"Frozen sections are cut at -20°C to -30°C to maintain tissue integrity."},
+
+  {question:"Why is cryostat preferred for frozen sections?",
+   options:{A:"Maintains constant freezing temperature and allows precise sectioning", B:"Dehydrates tissue", C:"Clears tissue", D:"Colors tissue"},
+   answer:"A",
+   explanation:"Cryostat allows sections to be cut in a cold chamber with precise thickness control."},
+
+  {question:"Which fixative is commonly used for frozen sections?",
+   options:{A:"10% Formalin", B:"Acetone or alcohol-based", C:"Glutaraldehyde", D:"Osmium tetroxide"},
+   answer:"B",
+   explanation:"Acetone or alcohol-based fixatives are fast and preserve enzyme activity in frozen sections."},
+
+  {question:"Why is rapid staining essential in frozen sections?",
+   options:{A:"Permanent storage", B:"Provides quick diagnosis during surgery", C:"Enhances wax penetration", D:"Dehydrates tissue"},
+   answer:"B",
+   explanation:"Rapid staining allows pathologists to make intraoperative decisions quickly."},
+
+  {question:"What is the main disadvantage of frozen sections?",
+   options:{A:"Time-consuming", B:"Lower morphological quality than paraffin sections", C:"Cannot preserve enzymes", D:"Requires embedding in paraffin"},
+   answer:"B",
+   explanation:"Frozen sections often have lower resolution and section quality than paraffin sections."},
+
+  {question:"Which fixative is considered universal for tissue preservation?",
+   options:{A:"10% Neutral Buffered Formalin", B:"Acetone", C:"Alcohol", D:"Glutaraldehyde"},
+   answer:"A",
+   explanation:"10% NBF preserves tissue morphology well for routine histology."},
+
+  {question:"Which fixative is preferred for electron microscopy?",
+   options:{A:"10% NBF", B:"Glutaraldehyde", C:"Acetone", D:"Alcohol"},
+   answer:"B",
+   explanation:"Glutaraldehyde cross-links proteins, preserving ultrastructure for EM."},
+
+  {question:"Which fixative is best for cytology smears?",
+   options:{A:"Ethanol", B:"10% NBF", C:"Glutaraldehyde", D:"Formalin"},
+   answer:"A",
+   explanation:"Ethanol preserves cells on smears and prevents lysis."},
+
+  {question:"Why is pH control important in fixation?",
+   options:{A:"Prevents tissue dehydration", B:"Prevents nuclear shrinkage or chromatin artifacts", C:"Speeds wax penetration", D:"Colors tissue"},
+   answer:"B",
+   explanation:"Proper pH avoids nuclear artifacts and preserves morphology."},
+
+  {question:"Why should tissue thickness be controlled during fixation?",
+   options:{A:"Faster processing", B:"Ensures adequate penetration and preservation", C:"Colors tissue", D:"Hardens tissue"},
+   answer:"B",
+   explanation:"Thick tissue may not fix adequately; ideal thickness ensures uniform preservation."},
+
+  {question:"Which factor accelerates fixation?",
+   options:{A:"High temperature", B:"Small tissue size, good fixative volume, agitation", C:"Thick tissue", D:"Cold temperature"},
+   answer:"B",
+   explanation:"Smaller tissue, sufficient fixative, and agitation speed fixation."},
+
+  {question:"Why is 10:1 fixative to tissue volume recommended?",
+   options:{A:"Prevent tissue drying", B:"Ensure proper chemical penetration", C:"Speed dehydration", D:"Improve staining"},
+   answer:"B",
+   explanation:"Adequate volume ensures uniform chemical penetration for fixation."},
+
+  {question:"Which fixative preserves enzyme activity?",
+   options:{A:"10% NBF", B:"Alcohol-based or acetone", C:"Glutaraldehyde", D:"Xylene"},
+   answer:"B",
+   explanation:"Alcohol or acetone fixes while preserving enzyme activity, important for cytochemistry."},
+
+  {question:"Which fixative is preferred for preserving lipids?",
+   options:{A:"Osmium tetroxide", B:"10% NBF", C:"Acetone", D:"Alcohol"},
+   answer:"A",
+   explanation:"Osmium tetroxide preserves lipids, used for EM and special staining."},
+
+  {question:"Why must tissue be labeled before fixation?",
+   options:{A:"To identify orientation and specimen", B:"To speed dehydration", C:"To improve wax penetration", D:"To dye tissue"},
+   answer:"A",
+   explanation:"Labeling ensures correct identification and orientation of specimens throughout processing."},
+
+   
