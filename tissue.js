@@ -1163,7 +1163,7 @@ const quizData = [
 
 
 
-      {question:"Which factor is crucial for gentle processing of delicate tissues like embryos?",
+  {question:"Which factor is crucial for gentle processing of delicate tissues like embryos?",
    options:{A:"Lower alcohol concentrations and shorter intervals", B:"High temperature", C:"Use xylene only", D:"No fixation"},
    answer:"A",
    explanation:"Delicate tissues require lower alcohol concentrations and shorter intervals to prevent damage."},
