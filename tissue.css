@@ -1,1 +1,36 @@
+body {
+  margin: 0; font-family: 'Arial', sans-serif; background: #e6f0fa; color: #1a2b4c;
+}
+.quiz-wrapper { max-width: 900px; margin: auto; padding: 10px; }
+.quiz-header h1 { text-align:center; color:#0b3d91; }
+.progress-bar { width:100%; height:10px; background:#cce0ff; border-radius:5px; margin:10px 0; }
+#progress-fill { width:0%; height:100%; background:#0b3d91; border-radius:5px; transition:width 0.3s; }
 
+.question-card { background:#fff; padding:20px; border-radius:10px; box-shadow:0 0 15px rgba(0,0,0,0.1); }
+#options { list-style:none; padding:0; margin-top:10px; }
+#options li { margin-bottom:10px; }
+.option-btn { width:100%; padding:10px; border:none; border-radius:5px; cursor:pointer; font-size:16px; transition:0.2s; background:#d9e6ff; color:#0b3d91; }
+.option-btn:hover { background:#b3ccff; }
+.option-btn.correct { background:#4caf50; color:#fff; }
+.option-btn.wrong { background:#f44336; color:#fff; }
+.option-btn.selected { border:2px solid #0b3d91; }
+
+.btn-group { display:flex; justify-content:space-between; margin-top:15px; }
+.btn { padding:10px 20px; font-size:16px; border:none; border-radius:5px; cursor:pointer; transition:0.2s; background:#0b3d91; color:#fff; }
+.btn:hover { background:#06427c; }
+
+.feedback { margin-top:15px; font-size:15px; }
+
+.carousel-container { display:flex; align-items:center; justify-content:center; margin-top:15px; }
+.carousel-btn { padding:5px 10px; margin:0 5px; font-size:18px; border:none; border-radius:5px; cursor:pointer; background:#0b3d91; color:#fff; transition:0.2s; }
+.carousel-btn:hover { background:#06427c; }
+.question-nav { display:flex; overflow:hidden; flex-wrap:nowrap; }
+.q-btn { min-width:40px; margin:2px; padding:5px; border:none; border-radius:5px; cursor:pointer; background:#d9e6ff; color:#0b3d91; transition:0.2s; }
+.q-btn.answered { background:#0b3d91; color:#fff; }
+.q-btn:hover { background:#b3ccff; }
+
+@media screen and (max-width:600px){
+  .option-btn { font-size:14px; }
+  .btn { font-size:14px; padding:8px 12px; }
+  .q-btn { min-width:30px; font-size:14px; padding:4px; }
+}
