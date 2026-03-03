@@ -360,8 +360,94 @@ const quizData = [
     answer: "A",
     explanation: "Brain tissue is highly autolytic and requires rapid fixation to preserve morphology."
   },
-  {
+
+
+
+
+  
+
+     {
     question: "Which wax additive improves section adherence to slides?",
     options: { A: "Beeswax", B: "Ceresin", C: "Bayberry wax", D: "Paraffin only" },
     answer: "A",
-    explanation: "B
+    explanation: "Beeswax increases stickiness, helping sections adhere to slides during processing and staining."
+  },
+  {
+    question: "Why is negative pressure applied during automated processing?",
+    options: { A: "Remove trapped air and improve infiltration", B: "Cool tissue", C: "Increase staining", D: "Color tissue" },
+    answer: "A",
+    explanation: "Vacuum removes air bubbles in tissue, allowing wax to infiltrate uniformly."
+  },
+  {
+    question: "What is the effect of too rapid dehydration?",
+    options: { A: "Tissue shrinkage and hardening", B: "Faster sectioning", C: "Better staining", D: "No effect" },
+    answer: "A",
+    explanation: "Rapid dehydration can cause osmotic shock leading to shrinkage and distortion."
+  },
+  {
+    question: "Why are thin sections preferred in histology?",
+    options: { A: "For optimal light microscopy resolution", B: "To reduce staining time", C: "To save wax", D: "To preserve tissue" },
+    answer: "A",
+    explanation: "Thin sections allow light to pass and improve resolution for cellular detail."
+  },
+  {
+    question: "Which embedding medium is suitable for large, friable specimens?",
+    options: { A: "Agar", B: "Paraffin", C: "Celoidin", D: "Gelatin" },
+    answer: "A",
+    explanation: "Agar supports delicate and friable tissues, keeping fragments together during processing."
+  },
+  {
+    question: "Which microtome is used for ultra-thin sections for electron microscopy?",
+    options: { A: "Ultramicrotome", B: "Rotary microtome", C: "Sliding microtome", D: "Cryostat" },
+    answer: "A",
+    explanation: "Ultramicrotomes cut sections <100 nm suitable for electron microscopy."
+  },
+  {
+    question: "Why is orientation important during embedding?",
+    options: { A: "Ensures diagnostic plane of section", B: "Colors tissue evenly", C: "Reduces wax use", D: "Prevents contamination" },
+    answer: "A",
+    explanation: "Correct orientation ensures the relevant structures are visible in sections for diagnosis."
+  },
+  {
+    question: "Which agent is used to remove alcohol before wax infiltration?",
+    options: { A: "Xylene", B: "Acetone", C: "Ethanol", D: "Water" },
+    answer: "A",
+    explanation: "Clearing agents like xylene replace alcohol and allow wax infiltration."
+  },
+  {
+    question: "Why is gradual dehydration necessary?",
+    options: { A: "Prevent tissue shrinkage and distortion", B: "Speed up processing", C: "Improve staining", D: "Cool tissue" },
+    answer: "A",
+    explanation: "Stepwise alcohol concentrations prevent osmotic shock and excessive shrinkage."
+  },
+  {
+    question: "Which tissue types are prone to autolysis?",
+    options: { A: "Liver, brain, pancreas", B: "Bone and cartilage", C: "Skin only", D: "Fat tissue only" },
+    answer: "A",
+    explanation: "High enzyme content in liver, brain, and pancreas accelerates autolysis if not fixed promptly."
+  },
+  {
+    question: "What is the standard paraffin wax melting point range?",
+    options: { A: "56–62°C", B: "45–50°C", C: "65–70°C", D: "50–55°C" },
+    answer: "A",
+    explanation: "Standard paraffin wax melts between 56–62°C for optimal infiltration."
+  },
+  {
+    question: "Which factor affects section thickness?",
+    options: { A: "Blade angle, tissue type, and hardness", B: "Slide type", C: "Water bath temperature only", D: "Dehydration time only" },
+    answer: "A",
+    explanation: "Blade angle, tissue hardness, and type determine the thickness and quality of sections."
+  },
+  {
+    question: "Why should sections be mounted on coated slides?",
+    options: { A: "Prevent detachment during staining", B: "Enhance color", C: "Speed dehydration", D: "Reduce wax usage" },
+    answer: "A",
+    explanation: "Coated slides ensure tissue remains attached through multiple staining and washing steps."
+  },
+  {
+    question: "What is the purpose of cold embedding plates?",
+    options: { A: "Rapidly solidify wax base", B: "Color tissue", C: "Dehydrate tissue", D: "Cool microtome blade" },
+    answer: "A",
+    explanation: "Cold plates quickly solidify wax blocks for embedding and easy sectioning."
+  },
+  
