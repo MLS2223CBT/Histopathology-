@@ -495,4 +495,256 @@ const quizData = [
     answer: "C",
     explanation: "EDTA preserves tissue architecture and staining better than acids or electrolytic methods."
   },
+
+
+
+
+  // ===== Additional 50 Decalcification Questions =====
+  {
+    question: "Which decalcifying method is best for preserving enzymatic activity?",
+    options: {A: "Strong acids", B: "EDTA", C: "Electrolytic", D: "Ion exchange resin"},
+    answer: "B",
+    explanation: "EDTA chelation preserves enzymatic activity better than strong acids."
+  },
+  {
+    question: "What is the primary reason to decalcify a bone specimen?",
+    options: {A: "To remove fat", B: "To soften tissue for microtomy", C: "To stain proteins", D: "To dry the specimen"},
+    answer: "B",
+    explanation: "Decalcification softens bone tissue so thin sections can be cut for histology."
+  },
+  {
+    question: "Which of the following increases the rate of acid decalcification?",
+    options: {A: "Low acid concentration", B: "Large tissue size", C: "Agitation", D: "Cold temperature"},
+    answer: "C",
+    explanation: "Gentle agitation speeds up the reaction of acids with calcium ions."
+  },
+  {
+    question: "Which type of bone is hardest and requires longer decalcification?",
+    options: {A: "Trabecular", B: "Cortical", C: "Cartilaginous", D: "Spongy"},
+    answer: "B",
+    explanation: "Cortical bone is dense and heavily mineralized, taking longer to decalcify."
+  },
+  {
+    question: "Why is monitoring decalcification important?",
+    options: {A: "To ensure complete calcium removal without over-softening", B: "To change the pH daily", C: "To reduce reagent cost", D: "To avoid staining"},
+    answer: "A",
+    explanation: "Monitoring prevents over-decalcification, which can damage tissue structure."
+  },
+  {
+    question: "Which method uses electrical current to accelerate calcium removal?",
+    options: {A: "Strong acid immersion", B: "Chelation", C: "Electrolytic decalcification", D: "Surface decalcification"},
+    answer: "C",
+    explanation: "Electrolytic decalcification uses an electric current to move calcium ions out of the tissue."
+  },
+  {
+    question: "Which decalcifying agent is most suitable for long-term preservation of histological detail?",
+    options: {A: "Nitric acid", B: "EDTA", C: "Hydrochloric acid", D: "Sulfuric acid"},
+    answer: "B",
+    explanation: "EDTA is gentle and preserves cellular morphology and staining."
+  },
+  {
+    question: "Which property of bone affects decalcification speed the most?",
+    options: {A: "Color", B: "Degree of mineralization", C: "Shape", D: "Surrounding tissue"},
+    answer: "B",
+    explanation: "Higher mineral content slows down decalcification."
+  },
+  {
+    question: "Which factor is critical for chemical endpoint tests?",
+    options: {A: "Time of day", B: "pH of solution", C: "Color of specimen", D: "Air exposure"},
+    answer: "B",
+    explanation: "The pH of the solution affects calcium detection accuracy."
+  },
+  {
+    question: "Why is EDTA considered safer for immunohistochemistry?",
+    options: {A: "Faster decalcification", B: "Preserves tissue antigens", C: "Generates heat", D: "Requires high concentration"},
+    answer: "B",
+    explanation: "EDTA preserves antigenicity, making it ideal for immunostaining applications."
+  },
+  {
+    question: "Which type of bone section is usually decalcified for routine staining?",
+    options: {A: "Frozen sections", B: "Paraffin-embedded bone", C: "Whole skeleton", D: "Dry bones"},
+    answer: "B",
+    explanation: "Paraffin-embedded bone requires decalcification for sectioning and staining."
+  },
+  {
+    question: "Which acid is considered moderate in decalcifying strength?",
+    options: {A: "Formic acid", B: "Nitric acid", C: "Hydrochloric acid", D: "Sulfuric acid"},
+    answer: "A",
+    explanation: "Formic acid is a weak to moderate acid, gentle on tissue but slower than strong acids."
+  },
+  {
+    question: "Which solution requires neutralization before performing chemical endpoint tests?",
+    options: {A: "EDTA", B: "Nitric acid", C: "Formic acid", D: "Distilled water"},
+    answer: "B",
+    explanation: "Strong acids like nitric acid must be neutralized to accurately detect remaining calcium."
+  },
+  {
+    question: "Why is temperature control important during decalcification?",
+    options: {A: "To prevent bacterial growth", B: "To avoid tissue maceration", C: "To keep solution clear", D: "To speed chemical tests"},
+    answer: "B",
+    explanation: "High temperatures can damage tissue morphology; controlled room temperature is recommended."
+  },
+  {
+    question: "Which method is fastest for small bone biopsy specimens?",
+    options: {A: "EDTA", B: "Strong acids", C: "Ion exchange resin", D: "Surface decalcification"},
+    answer: "B",
+    explanation: "Strong acids like nitric acid decalcify small biopsy specimens rapidly."
+  },
+  {
+    question: "Which decalcifying agent is commonly used in combination with formalin for routine fixation?",
+    options: {A: "Formic acid", B: "EDTA", C: "Sulfuric acid", D: "Hydrochloric acid"},
+    answer: "A",
+    explanation: "Formic acid-formalin mixtures allow simultaneous fixation and decalcification."
+  },
+  {
+    question: "Which decalcification technique is recommended for delicate pediatric specimens?",
+    options: {A: "Strong acids", B: "EDTA chelation", C: "Electrolytic", D: "Surface decalcification"},
+    answer: "B",
+    explanation: "EDTA gently decalcifies delicate specimens while preserving cellular details."
+  },
+  {
+    question: "Which step is performed immediately after selecting the bone specimen?",
+    options: {A: "Agitation", B: "Fixation", C: "Chemical testing", D: "Sectioning"},
+    answer: "B",
+    explanation: "Fixation preserves tissue morphology before decalcification."
+  },
+  {
+    question: "Which factor can cause uneven decalcification in thick bone blocks?",
+    options: {A: "Agitation", B: "Poor fluid access", C: "EDTA", D: "Surface decalcification"},
+    answer: "B",
+    explanation: "Uneven contact with decalcifying fluid causes incomplete or uneven decalcification."
+  },
+  {
+    question: "Which decalcifying agent can cause tissue brittleness if overused?",
+    options: {A: "EDTA", B: "Formic acid", C: "Nitric acid", D: "Ion exchange resin"},
+    answer: "C",
+    explanation: "Strong acids like nitric acid can make tissue brittle if overexposed."
+  },
+  {
+    question: "Why is ion exchange resin sometimes preferred in routine labs?",
+    options: {A: "Low cost", B: "Reduces solution replacement frequency", C: "Requires no monitoring", D: "Very fast"},
+    answer: "B",
+    explanation: "Ion exchange resins remove calcium continuously, decreasing the need for frequent fluid changes."
+  },
+  {
+    question: "Which endpoint test is non-destructive and uses imaging?",
+    options: {A: "Mechanical", B: "Chemical", C: "Radiographic", D: "Agitation"},
+    answer: "C",
+    explanation: "Radiography allows observation of calcium removal without damaging the tissue."
+  },
+  {
+    question: "Which factor primarily determines the choice between strong acids and chelating agents?",
+    options: {A: "Tissue color", B: "Need for antigen preservation", C: "Shape of bone", D: "Availability of reagents"},
+    answer: "B",
+    explanation: "Chelating agents are chosen when antigen preservation is critical, acids for speed."
+  },
+  {
+    question: "What is a potential disadvantage of using EDTA for large specimens?",
+    options: {A: "Tissue damage", B: "Slow decalcification", C: "Heat generation", D: "Uneven fixation"},
+    answer: "B",
+    explanation: "EDTA works slowly, which may be inconvenient for large specimens."
+  },
+  {
+    question: "Which method is ideal for removing surface calcium from embedded blocks?",
+    options: {A: "Surface decalcification", B: "EDTA", C: "Strong acids", D: "Electrolytic"},
+    answer: "A",
+    explanation: "Surface decalcification targets only small calcium deposits on paraffin-embedded blocks."
+  },
+  {
+    question: "Which chemical endpoint method involves precipitation reactions?",
+    options: {A: "Mechanical probing", B: "Radiography", C: "Ammonium oxalate test", D: "Electrolytic measurement"},
+    answer: "C",
+    explanation: "Calcium reacts with ammonium oxalate forming a precipitate indicating incomplete decalcification."
+  },
+  {
+    question: "Which method is gentler on tissue morphology: strong acids or chelating agents?",
+    options: {A: "Strong acids", B: "Chelating agents", C: "Electrolytic", D: "Ion exchange"},
+    answer: "B",
+    explanation: "Chelating agents preserve cellular and structural details better than acids."
+  },
+  {
+    question: "Which factor does NOT affect chemical endpoint testing?",
+    options: {A: "Concentration of reagent", B: "Temperature", C: "Specimen thickness", D: "Color of solution"},
+    answer: "D",
+    explanation: "Color of solution is irrelevant; other factors impact calcium detection."
+  },
+  {
+    question: "Why is solution volume important in decalcification?",
+    options: {A: "Prevents tissue drying", B: "Maintains effective calcium removal", C: "Speeds chemical testing", D: "Changes pH automatically"},
+    answer: "B",
+    explanation: "Sufficient fluid volume prevents depletion of the decalcifying agent by calcium ions."
+  },
+  {
+    question: "Which method can damage tissue due to local heating?",
+    options: {A: "Electrolytic decalcification", B: "EDTA", C: "Surface decalcification", D: "Ion exchange"},
+    answer: "A",
+    explanation: "Electric current can generate heat that damages tissue during electrolytic decalcification."
+  },
+  {
+    question: "Which decalcifying agent is slowest but most gentle?",
+    options: {A: "Formic acid", B: "Nitric acid", C: "EDTA", D: "Hydrochloric acid"},
+    answer: "C",
+    explanation: "EDTA works slowly but preserves morphology and antigenicity."
+  },
+  {
+    question: "Which technique is preferred for rapid small tissue biopsies?",
+    options: {A: "EDTA", B: "Strong acid immersion", C: "Surface decalcification", D: "Ion exchange"},
+    answer: "B",
+    explanation: "Strong acids are used for quick decalcification of small biopsies."
+  },
+  {
+    question: "Which method minimizes fluid changes while maintaining decalcification efficiency?",
+    options: {A: "EDTA", B: "Ion exchange resin", C: "Strong acids", D: "Electrolytic"},
+    answer: "B",
+    explanation: "Ion exchange resin removes calcium continuously, reducing the need for frequent solution changes."
+  },
+  {
+    question: "Which decalcification method requires an anode attachment?",
+    options: {A: "Electrolytic", B: "EDTA", C: "Formic acid", D: "Ion exchange"},
+    answer: "A",
+    explanation: "Electrolytic decalcification requires attaching the specimen to the anode for current flow."
+  },
+  {
+    question: "Which method is generally safest for delicate histological features?",
+    options: {A: "Strong acids", B: "Chelating agents", C: "Electrolytic", D: "Surface acids"},
+    answer: "B",
+    explanation: "Chelating agents protect delicate cellular structures and antigenicity."
+  },
+  {
+    question: "Which decalcifying agent is most cost-effective for routine lab use?",
+    options: {A: "EDTA", B: "Formic acid", C: "Nitric acid", D: "Hydrochloric acid"},
+    answer: "B",
+    explanation: "Formic acid is inexpensive and adequate for routine decalcification."
+  },
+  {
+    question: "Which endpoint test requires no special equipment?",
+    options: {A: "Mechanical", B: "Radiographic", C: "Electrolytic", D: "Ion exchange"},
+    answer: "A",
+    explanation: "Mechanical probing only requires a needle or pin to assess tissue softness."
+  },
+  {
+    question: "Which factor is least relevant when choosing decalcifying agents for small biopsies?",
+    options: {A: "Speed", B: "Antigen preservation", C: "Volume of fluid", D: "Bone color"},
+    answer: "D",
+    explanation: "Bone color does not affect agent choice; other factors are critical."
+  },
+  {
+    question: "Which technique allows the most precise control over decalcification speed?",
+    options: {A: "EDTA", B: "Strong acids", C: "Electrolytic decalcification", D: "Surface decalcification"},
+    answer: "C",
+    explanation: "Electrolytic methods allow adjusting current to control speed of calcium removal."
+  },
+  {
+    question: "Which method can be combined with fixation to save processing time?",
+    options: {A: "EDTA chelation", B: "Formic acid-formalin mixture", C: "Strong acid immersion", D: "Ion exchange"},
+    answer: "B",
+    explanation: "Formalin-formic acid mixture fixes and decalcifies tissue simultaneously."
+  },
+  {
+    question: "Which factor is important to prevent tissue collapse during decalcification?",
+    options: {A: "Proper fluid volume", B: "Color monitoring", C: "High acid concentration", D: "Air exposure"},
+    answer: "A",
+    explanation: "Adequate solution volume ensures tissue remains immersed and prevents collapse."
+  }
+  
   
