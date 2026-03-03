@@ -805,4 +805,358 @@ const quizData = [
    answer:"A",
    explanation:"Labeling ensures correct identification and orientation of specimens throughout processing."},
 
-   
+
+
+
+
+  
+// Questions 133–172
+  {question:"What is the main purpose of fixation in histology?",
+   options:{A:"Color tissue", B:"Preserve tissue morphology", C:"Dehydrate tissue", D:"Embed tissue"},
+   answer:"B",
+   explanation:"Fixation preserves tissue morphology and prevents autolysis and decomposition."},
+
+  {question:"Which chemical group in formalin reacts with tissue proteins?",
+   options:{A:"Aldehyde group", B:"Alcohol group", C:"Carboxyl group", D:"Ketone group"},
+   answer:"A",
+   explanation:"Formaldehyde (aldehyde group) cross-links proteins, preserving tissue structure."},
+
+  {question:"Why is neutral buffered formalin preferred over unbuffered formalin?",
+   options:{A:"Faster penetration", B:"Prevents acid formalin pigment formation", C:"Reduces dehydration time", D:"Improves embedding"},
+   answer:"B",
+   explanation:"Buffering prevents formation of formalin pigment and tissue artifacts."},
+
+  {question:"Which fixative is best for preserving nucleic acids?",
+   options:{A:"10% NBF", B:"Alcohol-based", C:"Glutaraldehyde", D:"Osmium tetroxide"},
+   answer:"B",
+   explanation:"Alcohol-based fixatives preserve DNA and RNA better than formalin."},
+
+  {question:"Which factor slows fixation?",
+   options:{A:"Thin tissue", B:"Large tissue block", C:"Agitation", D:"High fixative volume"},
+   answer:"B",
+   explanation:"Large or thick tissue slows penetration of fixative, leading to incomplete fixation."},
+
+  {question:"What is the main disadvantage of acetone as a fixative?",
+   options:{A:"Destroys enzymes", B:"Brittleness and shrinkage", C:"Slow fixation", D:"Does not preserve nucleic acids"},
+   answer:"B",
+   explanation:"Acetone fixes rapidly but may cause tissue brittleness and shrinkage."},
+
+  {question:"Why is perfusion fixation used?",
+   options:{A:"For small tissue pieces", B:"To rapidly fix entire organs via blood vessels", C:"For frozen sections", D:"To dehydrate tissue"},
+   answer:"B",
+   explanation:"Perfusion allows rapid fixation of large organs through vascular circulation."},
+
+  {question:"Which fixative is preferred for immunohistochemistry?",
+   options:{A:"10% NBF", B:"Alcohol-based", C:"Glutaraldehyde", D:"Osmium tetroxide"},
+   answer:"B",
+   explanation:"Alcohol-based fixatives preserve antigenicity better than cross-linking fixatives."},
+
+  {question:"Why should tissue be trimmed before fixation?",
+   options:{A:"Remove debris", B:"Ensure fixative penetration", C:"Color tissue", D:"Dehydrate tissue"},
+   answer:"B",
+   explanation:"Trimming to appropriate thickness ensures uniform fixative penetration."},
+
+  {question:"Which factor is NOT critical for proper fixation?",
+   options:{A:"Tissue size", B:"Fixative volume", C:"Temperature", D:"Slide coating"},
+   answer:"D",
+   explanation:"Slide coating is irrelevant to fixation; tissue size, fixative volume, and temperature matter."},
+
+  {question:"Why is gentle agitation used during fixation?",
+   options:{A:"Speed wax penetration", B:"Enhance fixative contact and penetration", C:"Color tissue", D:"Flatten tissue"},
+   answer:"B",
+   explanation:"Agitation helps fixative reach all tissue areas, ensuring uniform fixation."},
+
+  {question:"Which fixative is used for electron microscopy to preserve membranes?",
+   options:{A:"10% NBF", B:"Glutaraldehyde", C:"Ethanol", D:"Acetone"},
+   answer:"B",
+   explanation:"Glutaraldehyde cross-links proteins, preserving ultrastructure and membranes for EM."},
+
+  {question:"What is postfixation in EM?",
+   options:{A:"Secondary fixation with osmium tetroxide to preserve lipids", B:"Primary fixation", C:"Dehydration", D:"Embedding"},
+   answer:"A",
+   explanation:"Postfixation with osmium stabilizes lipid structures and enhances contrast in EM."},
+
+  {question:"Why is dehydration required before paraffin embedding?",
+   options:{A:"To remove alcohol", B:"Paraffin wax is hydrophobic", C:"Color tissue", D:"Section tissue"},
+   answer:"B",
+   explanation:"Wax cannot penetrate water; tissue must be dehydrated first."},
+
+  {question:"Which alcohol series is commonly used in dehydration?",
+   options:{A:"70%, 80%, 95%, 100%", B:"50%, 60%, 70%, 80%", C:"100% only", D:"20%, 40%, 60%, 80%"},
+   answer:"A",
+   explanation:"Graded series gradually removes water, preventing tissue shrinkage."},
+
+  {question:"What is the purpose of clearing?",
+   options:{A:"Color tissue", B:"Replace alcohol with wax-compatible fluid", C:"Dehydrate tissue", D:"Trim tissue"},
+   answer:"B",
+   explanation:"Clearing replaces dehydrant with a medium miscible with paraffin, making tissue translucent."},
+
+  {question:"Which is the most common clearing agent?",
+   options:{A:"Xylene", B:"Toluene", C:"Cedarwood oil", D:"Chloroform"},
+   answer:"A",
+   explanation:"Xylene is rapid, effective, and standard for routine clearing."},
+
+  {question:"Why is infiltration important?",
+   options:{A:"Remove water", B:"Replace clearing agent with wax for support", C:"Color tissue", D:"Dehydrate tissue"},
+   answer:"B",
+   explanation:"Infiltration fills tissue spaces with wax, providing structural support for sectioning."},
+
+  {question:"What is embedding?",
+   options:{A:"Sectioning tissue", B:"Enclosing tissue in solid medium", C:"Dehydration", D:"Clearing"},
+   answer:"B",
+   explanation:"Embedding surrounds tissue with solid medium to allow proper orientation and sectioning."},
+
+  {question:"Which factor is critical in embedding?",
+   options:{A:"Orientation of tissue", B:"Temperature only", C:"Wax type only", D:"Slide coating"},
+   answer:"A",
+   explanation:"Correct orientation ensures diagnostically relevant structures are visible."},
+
+  {question:"Which embedding medium is preferred for electron microscopy?",
+   options:{A:"Paraffin", B:"Epoxy resin", C:"Agar", D:"Celloidin"},
+   answer:"B",
+   explanation:"Epoxy resin provides ultra-thin support for EM sections."},
+
+  {question:"Why is trimming necessary before sectioning?",
+   options:{A:"Remove damaged tissue and wax", B:"Dehydrate tissue", C:"Clear tissue", D:"Color tissue"},
+   answer:"A",
+   explanation:"Trimming exposes fresh tissue surface for uniform sections."},
+
+  {question:"What is a water bath used for after sectioning?",
+   options:{A:"Color tissue", B:"Flatten and relax sections", C:"Dehydrate tissue", D:"Embed tissue"},
+   answer:"B",
+   explanation:"Warm water bath removes wrinkles and helps sections adhere to slides."},
+
+  {question:"At what temperature is paraffin water bath maintained?",
+   options:{A:"45–50°C", B:"25–30°C", C:"37°C", D:"60–65°C"},
+   answer:"A",
+   explanation:"Optimal temperature relaxes sections without melting wax."},
+
+  {question:"Why are slides coated before mounting?",
+   options:{A:"Improve adhesion", B:"Color tissue", C:"Dehydrate tissue", D:"Embed tissue"},
+   answer:"A",
+   explanation:"Coating ensures paraffin sections stick firmly to slides during staining."},
+
+  {question:"Which stain shows general tissue morphology?",
+   options:{A:"H&E", B:"PAS", C:"Silver", D:"Trichrome"},
+   answer:"A",
+   explanation:"Hematoxylin and eosin highlights general morphology and nuclei."},
+
+  {question:"Which stain highlights polysaccharides?",
+   options:{A:"PAS", B:"H&E", C:"Silver", D:"Trichrome"},
+   answer:"A",
+   explanation:"Periodic Acid-Schiff stains carbohydrates magenta."},
+
+  {question:"Which stain is used for reticular fibers?",
+   options:{A:"Silver stain", B:"H&E", C:"PAS", D:"Trichrome"},
+   answer:"A",
+   explanation:"Silver impregnation highlights reticular fibers black."},
+
+  {question:"Which stain differentiates collagen and muscle?",
+   options:{A:"Masson’s Trichrome", B:"H&E", C:"PAS", D:"Silver"},
+   answer:"A",
+   explanation:"Collagen stains blue/green and muscle stains red with Masson’s Trichrome."},
+
+  {question:"Why are frozen sections used?",
+   options:{A:"Rapid diagnosis and enzyme preservation", B:"Routine work", C:"Dehydration", D:"Embedding"},
+   answer:"A",
+   explanation:"Frozen sections allow intraoperative diagnosis and preserve enzyme activity."},
+
+  {question:"Which embedding medium is used for frozen sections?",
+   options:{A:"OCT compound", B:"Paraffin", C:"Agar", D:"Epoxy resin"},
+   answer:"A",
+   explanation:"OCT supports frozen tissue for rapid sectioning."},
+
+  {question:"At what temperature are frozen sections cut?",
+   options:{A:"-20°C to -30°C", B:"Room temperature", C:"37°C", D:"56°C"},
+   answer:"A",
+   explanation:"Frozen tissue requires low temperature to maintain integrity."},
+
+  {question:"Which fixative is suitable for preserving enzymes in frozen sections?",
+   options:{A:"Acetone or alcohol-based", B:"10% NBF", C:"Glutaraldehyde", D:"Osmium tetroxide"},
+   answer:"A",
+   explanation:"Alcohol or acetone preserves enzyme activity during fixation."},
+
+  {question:"Which factor ensures good fixation of large tissue blocks?",
+   options:{A:"Small size, agitation, sufficient fixative", B:"High temperature only", C:"Slide coating", D:"Embedding medium"},
+   answer:"A",
+   explanation:"Small size, agitation, and sufficient fixative volume ensure penetration and preservation."},
+
+  {question:"Which type of microtome is used for frozen sections?",
+   options:{A:"Cryostat", B:"Rotary microtome", C:"Sliding microtome", D:"Diamond microtome"},
+   answer:"A",
+   explanation:"Cryostat maintains cold temperature for frozen sectioning."},
+
+  {question:"Which knife is typically used for paraffin sections?",
+   options:{A:"Disposable steel blade", B:"Diamond knife", C:"Glass knife", D:"Ceramic knife"},
+   answer:"A",
+   explanation:"Disposable steel blades are standard for routine paraffin microtomy."},
+
+
+
+  {question:"What is the function of fixation in tissue processing?",
+   options:{A:"To soften tissue", B:"To preserve tissue and prevent decay", C:"To color tissue", D:"To remove water"},
+   answer:"B",
+   explanation:"Fixation preserves tissue and prevents decay by cross-linking proteins and stabilizing cell structures."},
+
+  {question:"Which factor affects fixation rate?",
+   options:{A:"Tissue size and thickness", B:"Color of tissue", C:"Shape of container", D:"Temperature only"},
+   answer:"A",
+   explanation:"Permeability and thickness of tissue affect how quickly fixatives penetrate."},
+
+  {question:"Why is 10% formalin commonly used for fixation?",
+   options:{A:"It is fast and cheap", B:"It is non-toxic", C:"It preserves tissue morphology and prevents decay", D:"It dehydrates tissue"},
+   answer:"C",
+   explanation:"10% formalin preserves tissue morphology and prevents decay."},
+
+  {question:"What is the main risk if tissue is placed directly into 100% alcohol?",
+   options:{A:"Faster processing", B:"Osmotic shock causing shrinkage and distortion", C:"Better clarity", D:"Tissue dissolves"},
+   answer:"B",
+   explanation:"Direct placement in 100% alcohol causes osmotic shock, leading to severe shrinkage and distortion."},
+
+  {question:"Why is agitation used during dehydration?",
+   options:{A:"To prevent tissue from floating", B:"To speed up diffusion and avoid saturated layers", C:"To color tissue", D:"To make tissue transparent"},
+   answer:"B",
+   explanation:"Agitation prevents stagnation of saturated fluid around tissue, speeding diffusion of dehydrants."},
+
+  {question:"What is the role of temperature during dehydration?",
+   options:{A:"No effect", B:"High temperature can cook tissue", C:"Low temperature speeds dehydration", D:"It changes tissue color"},
+   answer:"B",
+   explanation:"Heat increases diffusion rate but excessive heat can harden or 'cook' tissue, causing artifacts."},
+
+  {question:"What is the purpose of using anhydrous Copper Sulphate in absolute alcohol?",
+   options:{A:"To color tissue", B:"To absorb water and indicate when alcohol is no longer absolute", C:"To fix tissue", D:"To speed clearing"},
+   answer:"B",
+   explanation:"Anhydrous CuSO₄ absorbs water, prolongs alcohol life, and turns blue when alcohol is no longer water-free."},
+
+  {question:"Why might acetone be preferred in some dehydration protocols?",
+   options:{A:"It is slow and gentle", B:"Fast action and cheaper than ethanol for small biopsies", C:"It colors tissue", D:"It is non-flammable"},
+   answer:"B",
+   explanation:"Acetone acts rapidly and is often used for urgent or small biopsies, though it can cause shrinkage if left too long."},
+
+  {question:"Which clearing agent is unsuitable for brain tissue?",
+   options:{A:"Xylene", B:"Cedarwood Oil", C:"Chloroform", D:"Toluene"},
+   answer:"A",
+   explanation:"Xylene hardens tissue significantly and is unsuitable for brain tissue due to brittleness."},
+
+  {question:"What is the main purpose of infiltration?",
+   options:{A:"To remove water", B:"To make tissue colorful", C:"To fill tissue spaces with wax for sectioning", D:"To fix tissue"},
+   answer:"C",
+   explanation:"Infiltration replaces clearing agent with wax to support tissue for thin sectioning."},
+
+  {question:"Which embedding medium is used to avoid heat damage to hard tissues like bones?",
+   options:{A:"Paraffin Wax", B:"Celloidin", C:"Agar", D:"Carbowax"},
+   answer:"B",
+   explanation:"Celloidin is used for very hard tissues where heat from paraffin would cause damage."},
+
+  {question:"Why is agar embedding used before paraffin for friable tissues?",
+   options:{A:"To color tissue", B:"To provide initial support and prevent crumbling", C:"To harden tissue chemically", D:"To dehydrate tissue"},
+   answer:"B",
+   explanation:"Agar provides temporary support for friable or tiny tissue fragments before paraffin embedding."},
+
+  {question:"Which embedding medium is water-soluble and avoids alcohol/clearing?",
+   options:{A:"Carbowax", B:"Paraffin Wax", C:"Epoxy Resin", D:"Celloidin"},
+   answer:"A",
+   explanation:"Carbowax is water-soluble, allowing tissue to go directly from fixation into embedding without alcohol/clearing."},
+
+  {question:"What is the purpose of the hot plate in embedding?",
+   options:{A:"Cool wax", B:"Keep moulds and forceps warm to prevent wax solidifying", C:"Store forceps", D:"Rotate tissue"},
+   answer:"B",
+   explanation:"The hot plate keeps moulds and forceps warm so wax does not solidify prematurely."},
+
+  {question:"How should elongate tissue be oriented in the mould?",
+   options:{A:"Along the edge", B:"Diagonally to minimize vibration during cutting", C:"Randomly", D:"Only vertical"},
+   answer:"B",
+   explanation:"Elongate tissue is placed diagonally to minimize vibration during microtome cutting."},
+
+  {question:"What is the purpose of paraffin wax additives like beeswax?",
+   options:{A:"Lower melting point", B:"Increase stickiness to help ribbon formation", C:"Reduce hardness", D:"Color tissue"},
+   answer:"B",
+   explanation:"Beeswax increases tackiness, helping tissue sections stick together in ribbons."},
+
+  {question:"What is the melting point range of standard paraffin wax?",
+   options:{A:"45–50°C", B:"56–62°C", C:"65–70°C", D:"50–55°C"},
+   answer:"B",
+   explanation:"Standard paraffin wax melts between 56–62°C."},
+
+  {question:"Which embedding medium is used for electron microscopy sections?",
+   options:{A:"Paraffin Wax", B:"Epoxy Resin (Araldite)", C:"Agar", D:"Celloidin"},
+   answer:"B",
+   explanation:"Epoxy resin is used for EM because it is hard enough for ultra-thin sectioning."},
+
+  {question:"Why are tissue cassettes useful in embedding?",
+   options:{A:"Prevent labeling", B:"Provide a handle and stackable system for wax blocks", C:"Replace moulds", D:"Color tissue"},
+   answer:"B",
+   explanation:"Plastic cassettes hold tissue during processing and become handles during embedding, making blocks stackable."},
+
+  {question:"What is the correct orientation for skin tissue in embedding?",
+   options:{A:"Parallel to surface", B:"Cut at right angles to surface", C:"Random", D:"Angled upright"},
+   answer:"B",
+   explanation:"Skin should be cut at right angles to show epidermis, dermis, and subcutis in one section."},
+
+  {question:"What is the correct orientation for tubular structures like arteries?",
+   options:{A:"Longitudinal", B:"Transverse", C:"Diagonal", D:"Random"},
+   answer:"B",
+   explanation:"Tubular structures are oriented transversely to show the lumen and complete wall layers."},
+
+  {question:"How should multiple tissue fragments be arranged in the mould?",
+   options:{A:"Randomly scattered", B:"Grouped in center aligned with long axis", C:"On the edge", D:"Stacked"},
+   answer:"B",
+   explanation:"Multiple fragments should be grouped in the center aligned with the long axis of the mould."},
+
+  {question:"Which medium is used for frozen sections and necrotic tissue?",
+   options:{A:"Paraffin", B:"Gelatin", C:"Agar", D:"Celloidin"},
+   answer:"B",
+   explanation:"Gelatin is used for frozen sections on necrotic or crumbly tissue."},
+
+  {question:"Why is orientation critical in embedding?",
+   options:{A:"To prevent tissue from floating", B:"Determines plane of sectioning for correct diagnosis", C:"For labeling", D:"Random aesthetic"},
+   answer:"B",
+   explanation:"Incorrect orientation can make diagnosis impossible because the wrong plane may be sectioned."},
+
+  {question:"What does clearing improve for microscopy?",
+   options:{A:"Dehydration", B:"Transparency and refractive index", C:"Color", D:"Hardness"},
+   answer:"B",
+   explanation:"Clearing improves tissue transparency and adjusts refractive index closer to tissue proteins."},
+
+  {question:"Which agent is a mixture of phenol and xylene used for difficult tissues?",
+   options:{A:"Xylene", B:"Carbol-Xylene", C:"Chloroform", D:"Cedarwood Oil"},
+   answer:"B",
+   explanation:"Carbol-Xylene clears difficult tissues rapidly, reserved for fibrous tissues like uterus."},
+
+  {question:"Why is chloroform sometimes preferred for uterus and brain?",
+   options:{A:"Rapid clearing", B:"Does not harden tissue", C:"Cheap", D:"Color preservation"},
+   answer:"B",
+   explanation:"Chloroform clears without hardening tissues like uterus, muscle, or brain."},
+
+  {question:"Which alcohol is rarely used due to toxicity but may be used for blood smears?",
+   options:{A:"Ethanol", B:"Methanol", C:"Butyl Alcohol", D:"Isopropyl Alcohol"},
+   answer:"B",
+   explanation:"Methanol is toxic and volatile, rarely used in routine tissue processing but may be used for blood smears."},
+
+  {question:"What is the purpose of using vacuum in automated tissue processing?",
+   options:{A:"To color tissue", B:"To remove trapped air and speed reagent penetration", C:"To freeze tissue", D:"To heat tissue"},
+   answer:"B",
+   explanation:"Vacuum removes trapped air bubbles and improves reagent penetration in dense or spongy tissue."},
+
+  {question:"Which tissue type dehydrates slower than others?",
+   options:{A:"Liver", B:"Kidney", C:"Bone and fibrous skin", D:"Blood smear"},
+   answer:"C",
+   explanation:"Dense tissues like bone or fibrous skin take longer to dehydrate than soft tissues like liver or kidney."},
+
+  {question:"Why must absolute alcohol be fresh at the final dehydration step?",
+   options:{A:"To save cost", B:"Water in alcohol will cause milky xylene and poor wax infiltration", C:"To color tissue", D:"To increase shrinkage"},
+   answer:"B",
+   explanation:"If the final alcohol contains water, the clearing agent turns milky and wax will not enter tissue properly."},
+
+  {question:"Why are tissue blocks cooled rapidly on a cold plate?",
+   options:{A:"To color tissue", B:"To anchor tissue and solidify wax quickly", C:"To dehydrate tissue", D:"To remove wax"},
+   answer:"B",
+   explanation:"Rapid cooling anchors the tissue and solidifies the wax, preventing movement before sectioning."},
+
+  {question:"Which step in processing directly follows fixation?",
+   options:{A:"Clearing", B:"Dehydration", C:"Infiltration", D:"Embedding"},
+   answer:"B",
+   explanation:"Dehydration is the first step after fixation to remove water from the tissue."},
+
+  {question:"Which factor is crucial for gentle processing of delicate tissues like embryos?",
+   options:{A:"Lower alcohol concentrations and shorter intervals", B:"High temperature", C:"Us
