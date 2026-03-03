@@ -467,6 +467,477 @@ D: "Resin"
 },
 answer: "C",
 explanation: "The chelating agent generally used for decalcification is ethylenediaminetetraacetic acid (EDTA)."
+},
+
+
+  // ===== QUESTIONS 91 – 130 =====
+
+{
+    question: "The main purpose of fixation in tissue processing is to:",
+    options: [
+        "Harden the tissue completely",
+        "Preserve tissue structure and prevent autolysis",
+        "Remove water from tissue",
+        "Stain the tissue"
+    ],
+    answer: 1,
+    explanation: "Fixation preserves cellular structure and prevents autolysis and putrefaction."
+},
+
+{
+    question: "Autolysis is caused by:",
+    options: [
+        "Bacterial invasion",
+        "Poor staining technique",
+        "Self-digestion by enzymes",
+        "Overheating paraffin"
+    ],
+    answer: 2,
+    explanation: "Autolysis is the self-digestion of cells by their own enzymes after death."
+},
+
+{
+    question: "Putrefaction is mainly caused by:",
+    options: [
+        "Heat",
+        "Bacteria",
+        "Alcohol",
+        "Xylene"
+    ],
+    answer: 1,
+    explanation: "Putrefaction is tissue breakdown caused by bacterial action."
+},
+
+{
+    question: "The ideal thickness of tissue for proper fixation is:",
+    options: [
+        "1–2 cm",
+        "5–10 mm",
+        "10–20 mm",
+        "25 mm"
+    ],
+    answer: 1,
+    explanation: "Tissues should be 5–10 mm thick to allow proper penetration of fixative."
+},
+
+{
+    question: "Formalin penetrates tissue at approximately:",
+    options: [
+        "1 mm per hour",
+        "5 mm per hour",
+        "10 mm per hour",
+        "20 mm per hour"
+    ],
+    answer: 0,
+    explanation: "Formalin penetrates tissue at about 1 mm per hour."
+},
+
+{
+    question: "Over-fixation may result in:",
+    options: [
+        "Poor staining",
+        "Soft tissue",
+        "Autolysis",
+        "Tissue swelling"
+    ],
+    answer: 0,
+    explanation: "Over-fixation can reduce staining quality."
+},
+
+{
+    question: "The purpose of dehydration is to:",
+    options: [
+        "Remove paraffin",
+        "Remove water from tissue",
+        "Add stain",
+        "Fix tissue"
+    ],
+    answer: 1,
+    explanation: "Dehydration removes water before clearing."
+},
+
+{
+    question: "The most commonly used dehydrating agent is:",
+    options: [
+        "Xylene",
+        "Ethanol",
+        "Formalin",
+        "Paraffin"
+    ],
+    answer: 1,
+    explanation: "Ethanol is commonly used in graded concentrations for dehydration."
+},
+
+{
+    question: "Clearing agents must be:",
+    options: [
+        "Water soluble",
+        "Alcohol soluble",
+        "Miscible with alcohol and paraffin",
+        "Acidic"
+    ],
+    answer: 2,
+    explanation: "Clearing agents must mix with both alcohol and paraffin."
+},
+
+{
+    question: "The most common clearing agent is:",
+    options: [
+        "Ethanol",
+        "Formalin",
+        "Xylene",
+        "Acetone"
+    ],
+    answer: 2,
+    explanation: "Xylene is the most widely used clearing agent."
+},
+
+{
+    question: "Over-clearing can cause tissue to become:",
+    options: [
+        "Soft",
+        "Brittle",
+        "Wet",
+        "Swollen"
+    ],
+    answer: 1,
+    explanation: "Excess clearing makes tissue brittle."
+},
+
+{
+    question: "Paraffin wax is used for:",
+    options: [
+        "Fixation",
+        "Dehydration",
+        "Embedding",
+        "Staining"
+    ],
+    answer: 2,
+    explanation: "Paraffin wax supports tissue during sectioning."
+},
+
+{
+    question: "The melting point of paraffin wax used in histology is usually:",
+    options: [
+        "30–35°C",
+        "45–60°C",
+        "80–90°C",
+        "100°C"
+    ],
+    answer: 1,
+    explanation: "Paraffin used in histology melts around 45–60°C."
+},
+
+{
+    question: "Embedding molds are used to:",
+    options: [
+        "Dry slides",
+        "Shape paraffin blocks",
+        "Stain tissues",
+        "Fix specimens"
+    ],
+    answer: 1,
+    explanation: "Embedding molds give shape to paraffin blocks."
+},
+
+{
+    question: "The instrument used to cut thin tissue sections is called:",
+    options: [
+        "Centrifuge",
+        "Microtome",
+        "Autoclave",
+        "Incubator"
+    ],
+    answer: 1,
+    explanation: "A microtome cuts thin tissue sections."
+},
+
+{
+    question: "Routine paraffin sections are usually cut at:",
+    options: [
+        "1–2 µm",
+        "3–5 µm",
+        "10–15 µm",
+        "20 µm"
+    ],
+    answer: 1,
+    explanation: "Routine paraffin sections are cut at 3–5 micrometers."
+},
+
+{
+    question: "A dull microtome blade causes:",
+    options: [
+        "Smooth sections",
+        "Chatter",
+        "Better staining",
+        "Faster cutting"
+    ],
+    answer: 1,
+    explanation: "A dull blade causes chatter (vibrations)."
+},
+
+{
+    question: "Chatter in sections appears as:",
+    options: [
+        "Dark lines",
+        "Parallel ridges",
+        "Bubbles",
+        "Folds"
+    ],
+    answer: 1,
+    explanation: "Chatter appears as parallel lines across the section."
+},
+
+{
+    question: "Floatation bath temperature should be:",
+    options: [
+        "Below paraffin melting point",
+        "Above 100°C",
+        "Room temperature",
+        "Freezing"
+    ],
+    answer: 0,
+    explanation: "The water bath is kept slightly below the melting point of paraffin."
+},
+
+{
+    question: "The purpose of the water bath is to:",
+    options: [
+        "Stain sections",
+        "Flatten tissue sections",
+        "Fix tissue",
+        "Dehydrate tissue"
+    ],
+    answer: 1,
+    explanation: "The water bath helps flatten wrinkled sections."
+},
+
+{
+    question: "Adhesives are used on slides to:",
+    options: [
+        "Color tissue",
+        "Prevent section detachment",
+        "Dry slides",
+        "Clear tissue"
+    ],
+    answer: 1,
+    explanation: "Adhesives help sections stick firmly to slides."
+},
+
+{
+    question: "The most common routine stain in histology is:",
+    options: [
+        "Gram stain",
+        "Ziehl-Neelsen",
+        "Hematoxylin and Eosin",
+        "Giemsa"
+    ],
+    answer: 2,
+    explanation: "H&E is the standard routine stain."
+},
+
+{
+    question: "Hematoxylin stains:",
+    options: [
+        "Cytoplasm",
+        "Nuclei",
+        "Collagen",
+        "Fat"
+    ],
+    answer: 1,
+    explanation: "Hematoxylin stains nuclei blue/purple."
+},
+
+{
+    question: "Eosin stains:",
+    options: [
+        "Nuclei",
+        "Cytoplasm",
+        "DNA only",
+        "Lipids"
+    ],
+    answer: 1,
+    explanation: "Eosin stains cytoplasm pink."
+},
+
+{
+    question: "Bluing converts hematoxylin to:",
+    options: [
+        "Red",
+        "Green",
+        "Blue",
+        "Yellow"
+    ],
+    answer: 2,
+    explanation: "Bluing makes hematoxylin appear blue."
+},
+
+{
+    question: "Mounting medium is used to:",
+    options: [
+        "Stain tissue",
+        "Preserve stained sections",
+        "Fix tissue",
+        "Cut sections"
+    ],
+    answer: 1,
+    explanation: "Mounting medium preserves stained sections under coverslip."
+},
+
+{
+    question: "Air bubbles under coverslip are caused by:",
+    options: [
+        "Too much mounting medium",
+        "Improper mounting technique",
+        "Overfixation",
+        "Excess dehydration"
+    ],
+    answer: 1,
+    explanation: "Improper mounting causes air bubbles."
+},
+
+{
+    question: "Inadequate dehydration results in:",
+    options: [
+        "Proper embedding",
+        "Poor clearing",
+        "Better staining",
+        "Hard tissue"
+    ],
+    answer: 1,
+    explanation: "Incomplete dehydration interferes with clearing."
+},
+
+{
+    question: "The purpose of quality control in histology is to:",
+    options: [
+        "Increase cost",
+        "Ensure accurate results",
+        "Delay processing",
+        "Reduce workload"
+    ],
+    answer: 1,
+    explanation: "Quality control ensures reliable and accurate results."
+},
+
+{
+    question: "Labeling errors can lead to:",
+    options: [
+        "Better results",
+        "Misdiagnosis",
+        "Faster processing",
+        "Improved staining"
+    ],
+    answer: 1,
+    explanation: "Wrong labeling may result in misdiagnosis."
+},
+
+{
+    question: "The freezing method of sectioning uses:",
+    options: [
+        "Paraffin",
+        "Cryostat",
+        "Incubator",
+        "Autoclave"
+    ],
+    answer: 1,
+    explanation: "Cryostat is used for frozen sectioning."
+},
+
+{
+    question: "Frozen sections are mainly used for:",
+    options: [
+        "Routine staining",
+        "Urgent diagnosis",
+        "Long-term storage",
+        "Dehydration"
+    ],
+    answer: 1,
+    explanation: "Frozen sections provide rapid intraoperative diagnosis."
+},
+
+{
+    question: "Artifacts in tissue sections are:",
+    options: [
+        "Normal structures",
+        "Processing errors",
+        "Types of cells",
+        "Stains"
+    ],
+    answer: 1,
+    explanation: "Artifacts are distortions caused during processing."
+},
+
+{
+    question: "Knife marks in sections are caused by:",
+    options: [
+        "Sharp blade",
+        "Damaged blade edge",
+        "Proper embedding",
+        "Correct temperature"
+    ],
+    answer: 1,
+    explanation: "Blade defects cause knife marks."
+},
+
+{
+    question: "Section folds are prevented by:",
+    options: [
+        "Cold water bath",
+        "Proper floatation",
+        "Skipping dehydration",
+        "Reducing fixation time"
+    ],
+    answer: 1,
+    explanation: "Proper floatation on water bath removes folds."
+},
+
+{
+    question: "Microtome clearance angle affects:",
+    options: [
+        "Staining color",
+        "Section quality",
+        "Fixation",
+        "Embedding"
+    ],
+    answer: 1,
+    explanation: "Correct clearance angle ensures smooth sectioning."
+},
+
+{
+    question: "Rehydration during staining occurs after:",
+    options: [
+        "Mounting",
+        "Deparaffinization",
+        "Fixation",
+        "Embedding"
+    ],
+    answer: 1,
+    explanation: "Rehydration follows deparaffinization."
+},
+
+{
+    question: "Deparaffinization is done using:",
+    options: [
+        "Water",
+        "Xylene",
+        "Alcohol",
+        "Formalin"
+    ],
+    answer: 1,
+    explanation: "Xylene removes paraffin from sections."
+},
+
+{
+    question: "The final step before microscopy is:",
+    options: [
+        "Fixation",
+        "Embedding",
+        "Mounting",
+        "Dehydration"
+    ],
+    answer: 2,
+    explanation: "Mounting prepares slides for microscopic examination."
 }
 
 
