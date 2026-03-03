@@ -480,7 +480,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Remove water from tissue",
         "Stain the tissue"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Fixation preserves cellular structure and prevents autolysis and putrefaction."
 },
 
@@ -492,7 +492,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Self-digestion by enzymes",
         "Overheating paraffin"
     ],
-    answer: 2,
+    answer: "C",
     explanation: "Autolysis is the self-digestion of cells by their own enzymes after death."
 },
 
@@ -504,7 +504,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Alcohol",
         "Xylene"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Putrefaction is tissue breakdown caused by bacterial action."
 },
 
@@ -516,7 +516,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "10–20 mm",
         "25 mm"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Tissues should be 5–10 mm thick to allow proper penetration of fixative."
 },
 
@@ -528,7 +528,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "10 mm per hour",
         "20 mm per hour"
     ],
-    answer: 0,
+    answer: "A",
     explanation: "Formalin penetrates tissue at about 1 mm per hour."
 },
 
@@ -540,7 +540,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Autolysis",
         "Tissue swelling"
     ],
-    answer: 0,
+    answer: "A",
     explanation: "Over-fixation can reduce staining quality."
 },
 
@@ -552,7 +552,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Add stain",
         "Fix tissue"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Dehydration removes water before clearing."
 },
 
@@ -564,7 +564,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Formalin",
         "Paraffin"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Ethanol is commonly used in graded concentrations for dehydration."
 },
 
@@ -576,7 +576,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Miscible with alcohol and paraffin",
         "Acidic"
     ],
-    answer: 2,
+    answer: "C",
     explanation: "Clearing agents must mix with both alcohol and paraffin."
 },
 
@@ -588,7 +588,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Xylene",
         "Acetone"
     ],
-    answer: 2,
+    answer: "C",
     explanation: "Xylene is the most widely used clearing agent."
 },
 
@@ -600,7 +600,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Wet",
         "Swollen"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Excess clearing makes tissue brittle."
 },
 
@@ -612,7 +612,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Embedding",
         "Staining"
     ],
-    answer: 2,
+    answer: "C",
     explanation: "Paraffin wax supports tissue during sectioning."
 },
 
@@ -624,7 +624,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "80–90°C",
         "100°C"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Paraffin used in histology melts around 45–60°C."
 },
 
@@ -636,7 +636,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Stain tissues",
         "Fix specimens"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Embedding molds give shape to paraffin blocks."
 },
 
@@ -648,7 +648,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Autoclave",
         "Incubator"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "A microtome cuts thin tissue sections."
 },
 
@@ -660,7 +660,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "10–15 µm",
         "20 µm"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Routine paraffin sections are cut at 3–5 micrometers."
 },
 
@@ -672,7 +672,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Better staining",
         "Faster cutting"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "A dull blade causes chatter (vibrations)."
 },
 
@@ -684,7 +684,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Bubbles",
         "Folds"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Chatter appears as parallel lines across the section."
 },
 
@@ -696,7 +696,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Room temperature",
         "Freezing"
     ],
-    answer: 0,
+    answer: "A",
     explanation: "The water bath is kept slightly below the melting point of paraffin."
 },
 
@@ -708,7 +708,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Fix tissue",
         "Dehydrate tissue"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "The water bath helps flatten wrinkled sections."
 },
 
@@ -720,7 +720,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Dry slides",
         "Clear tissue"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Adhesives help sections stick firmly to slides."
 },
 
@@ -732,7 +732,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Hematoxylin and Eosin",
         "Giemsa"
     ],
-    answer: 2,
+    answer: "C",
     explanation: "H&E is the standard routine stain."
 },
 
@@ -744,7 +744,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Collagen",
         "Fat"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Hematoxylin stains nuclei blue/purple."
 },
 
@@ -756,7 +756,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "DNA only",
         "Lipids"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Eosin stains cytoplasm pink."
 },
 
@@ -768,7 +768,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Blue",
         "Yellow"
     ],
-    answer: 2,
+    answer: "C",
     explanation: "Bluing makes hematoxylin appear blue."
 },
 
@@ -780,7 +780,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Fix tissue",
         "Cut sections"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Mounting medium preserves stained sections under coverslip."
 },
 
@@ -792,7 +792,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Overfixation",
         "Excess dehydration"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Improper mounting causes air bubbles."
 },
 
@@ -804,7 +804,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Better staining",
         "Hard tissue"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Incomplete dehydration interferes with clearing."
 },
 
@@ -816,7 +816,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Delay processing",
         "Reduce workload"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Quality control ensures reliable and accurate results."
 },
 
@@ -828,7 +828,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Faster processing",
         "Improved staining"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Wrong labeling may result in misdiagnosis."
 },
 
@@ -840,7 +840,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Incubator",
         "Autoclave"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Cryostat is used for frozen sectioning."
 },
 
@@ -852,7 +852,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Long-term storage",
         "Dehydration"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Frozen sections provide rapid intraoperative diagnosis."
 },
 
@@ -864,7 +864,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Types of cells",
         "Stains"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Artifacts are distortions caused during processing."
 },
 
@@ -876,7 +876,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Proper embedding",
         "Correct temperature"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Blade defects cause knife marks."
 },
 
@@ -888,7 +888,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Skipping dehydration",
         "Reducing fixation time"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Proper floatation on water bath removes folds."
 },
 
@@ -900,7 +900,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Fixation",
         "Embedding"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Correct clearance angle ensures smooth sectioning."
 },
 
@@ -912,7 +912,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Fixation",
         "Embedding"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Rehydration follows deparaffinization."
 },
 
@@ -924,7 +924,7 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Alcohol",
         "Formalin"
     ],
-    answer: 1,
+    answer: "B",
     explanation: "Xylene removes paraffin from sections."
 },
 
@@ -936,9 +936,10 @@ explanation: "The chelating agent generally used for decalcification is ethylene
         "Mounting",
         "Dehydration"
     ],
-    answer: 2,
+    answer: "C",
     explanation: "Mounting prepares slides for microscopic examination."
-}
+      }
+
 
 
 ];
