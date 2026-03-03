@@ -224,7 +224,7 @@ const quizData = [
 
 
   // ===== New 50 Decalcification Questions =====
-const newQuizData = [
+
   {
     question: "Which property is most important when selecting a decalcifying agent for immunohistochemistry?",
     options: {A: "Speed of decalcification", B: "Preservation of tissue antigens", C: "Cost", D: "Ease of handling"},
