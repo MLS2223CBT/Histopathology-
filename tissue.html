@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tissue Processing CBT Quiz</title>
+<link rel="stylesheet" href="tissue.css">
+</head>
+<body>
+<div class="quiz-wrapper">
 
+  <header class="quiz-header">
+    <h1>Tissue Processing & Embedding Exam</h1>
+    <div class="progress-bar">
+      <div id="progress-fill"></div>
+    </div>
+  </header>
+
+  <main class="quiz-container">
+    <div id="question-card" class="question-card">
+      <h2 id="question"></h2>
+      <ul id="options"></ul>
+
+      <div class="btn-group">
+        <button id="prev-btn" class="btn">Previous</button>
+        <button id="next-btn" class="btn">Next</button>
+      </div>
+
+      <p id="feedback" class="feedback"></p>
+    </div>
+
+    <div class="carousel-container">
+      <button id="carousel-prev" class="carousel-btn">&lt;</button>
+      <div id="question-nav" class="question-nav"></div>
+      <button id="carousel-next" class="carousel-btn">&gt;</button>
+    </div>
+  </main>
+
+  <footer class="quiz-footer">
+    <p>&copy; 2026 CBT Simulation</p>
+  </footer>
+</div>
+
+<script src="tissue.js"></script>
+</body>
+</html>
